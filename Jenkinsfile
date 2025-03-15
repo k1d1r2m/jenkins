@@ -6,7 +6,7 @@ pipeline{
     }
     stages{
         stage('fetch code'){
-            git branch: 'main', url: 'https://github.com/k1d1r2m/Sampletomcat.git'
+            git branch: 'main', url: 'https://github.com/k1d1r2m/tomcat.git'
         }
 
         stage('Build'){
